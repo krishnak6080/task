@@ -1,0 +1,56 @@
+.body{
+    height: calc(70px-100vh);
+}
+.body-heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+.btn-add{
+    font-size: 20px;
+    background-color: rgb(83, 83, 241);
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 5rem;
+}
+.body table{
+    border-collapse: collapse;
+    width: 80%;
+    position: absolute;
+    left: 5rem;
+    top: 12rem;
+}
+.body table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.btn-update{
+    background-color: rgb(96, 209, 162);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn-view{
+    background-color: rgb(96, 209, 162);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn-delete{
+    background-color: rgb(218, 80, 80);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
